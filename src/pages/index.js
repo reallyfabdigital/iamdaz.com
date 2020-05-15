@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
         />
         <img style={{ margin: 0 }} src="./bender-over-there-compressor.png" alt="Welcome to iamdaz.com" />
         <h1>
-          Sometimes the most clever thing to say is nothing at all.
+          Bending code, one repo at a time.
         </h1>
         <p>Welcome to my website. It's a bit of an experiment, so bear with. 
       I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break. But it's still fast, right?</p>
