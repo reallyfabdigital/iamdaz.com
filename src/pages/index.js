@@ -7,7 +7,7 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Sometimes the most clever thing to say is nothing at all"
+    const siteTitle = "Hello sailor..."
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -17,10 +17,7 @@ class IndexPage extends React.Component {
         />
         <img style={{ margin: 0 }} src="./bender-over-there-compressor.png" alt="Welcome to iamdaz.com" />
         <h1>
-          Hello sailor...{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
+          Sometimes the most clever thing to say is nothing at all.
         </h1>
         <p>Welcome to my website. It's a bit of an experiment, so bear with. 
       I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break.</p>
