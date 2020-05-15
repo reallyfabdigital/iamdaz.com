@@ -7,7 +7,7 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Hello sailor..."
+    const siteTitle = "hello, i am daz"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./bender-over-there-compressor.png" alt="Welcome to iamdaz.com" />
+        <img style={{ margin: 0 }} src="./iamdaz-compressor.jpg" alt="Welcome to iamdaz.com" />
         <h1>
           Sometimes the most clever thing to say is nothing at all.
         </h1>
