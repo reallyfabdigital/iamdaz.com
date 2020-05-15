@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
         <p>Welcome to my website. It's a bit of an experiment, so bear with. 
       I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break.</p>
         <p>
-          Mail me <Link to="mailto:reallyfabdigital@gmail.com">here</Link> if it has. Thank you!
+          Mail me <a href="mailto:reallyfabdigital@gmail.com">here</a> if it has. Thank you!
         </p>
         <Link to="/blog/">
           <Button marginTop="35px">Blog</Button>
