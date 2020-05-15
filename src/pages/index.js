@@ -7,7 +7,7 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "iamdaz.com"
+    const siteTitle = "Sometimes the most clever thing to say is nothing at all"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -17,18 +17,18 @@ class IndexPage extends React.Component {
         />
         <img style={{ margin: 0 }} src="./bender-over-there-compressor.png" alt="Welcome to iamdaz.com" />
         <h1>
-          Hola{" "}
+          Hello sailor...{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
         </h1>
-        <p>Welcome to my little piece of the Internet - a sandbox for fiddling in.</p>
+        <p>Welcome to my website. It's a bit of an experiment, so bear with. 
+      I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break.</p>
         <p>
-          This is a Gatsby site, mastered in github and running on Netlify CMS. 
-      Check out how fast it is on <Link to="https://gtmetrix.com/">GTMetrix</Link>.
+          Mail me <Link to="mailto:reallyfabdigital@gmail.com">here</Link> if it has. Thank you!
         </p>
         <Link to="/blog/">
-          <Button marginTop="35px">Blog is this way...</Button>
+          <Button marginTop="35px">Blog</Button>
         </Link>
       </Layout>
     )
