@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
           Sometimes the most clever thing to say is nothing at all.
         </h1>
         <p>Welcome to my website. It's a bit of an experiment, so bear with. 
-      I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break.</p>
+      I built it mainly as an excuse to fiddle with Gatsby, github and Netlify CMS and am still fiddling. So it may break. But it's still fast, right?</p>
         <p>
           Mail me <a href="mailto:reallyfabdigital@gmail.com">here</a> if it has. Thank you!
         </p>
